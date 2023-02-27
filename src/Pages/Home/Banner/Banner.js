@@ -13,7 +13,7 @@ const Banner = () => {
                     <button className='btn bg-orange-600 text-white font-bold border-none'>Learn More</button>
                 </div>
                 <div>
-                    <iframe className='test1' src="https://embed.lottiefiles.com/animation/135693"></iframe>
+                    <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/135693"></iframe>
                 </div>
             </div>
         </div>

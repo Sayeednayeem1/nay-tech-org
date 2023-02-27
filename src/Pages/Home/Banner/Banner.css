@@ -1,4 +1,4 @@
-.test1 {
+.banner-animation {
     height: 400px;
     width: 400px;
 }
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .test1 {
+    .banner-animation {
         width: 100%;
         height: auto;
     }

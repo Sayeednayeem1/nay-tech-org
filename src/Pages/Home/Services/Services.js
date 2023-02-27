@@ -11,27 +11,27 @@ const Services = () => {
         <div className='mx-4 md:mx-36 mt-12'>
             <div className='flex flex-col md:flex-row items-center'>
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mr-0 md:mr-20'>
-                    <div className="bg-orange-200 shadow-xl p-10 rounded-lg">
+                    <div className="shadow-xl p-10 rounded-lg">
                         <img className='mb-4 this-test' src={Image1} alt="" />
                         <p>Developer</p>
                     </div>
-                    <div className="bg-orange-200 shadow-xl p-10 rounded-lg">
+                    <div className="shadow-xl p-10 rounded-lg">
                         <img className='mb-4 this-test' src={Image2} alt="" />
                         <p>Business Management</p>
                     </div>
-                    <div className="bg-orange-200 shadow-xl p-10 rounded-lg">
+                    <div className=" shadow-xl p-10 rounded-lg">
                         <img className='mb-4 this-test' src={Image3} alt="" />
                         <p>Digital marketing</p>
                     </div>
-                    <div className="bg-orange-200 shadow-xl p-10 rounded-lg">
+                    <div className=" shadow-xl p-10 rounded-lg">
                         <img className='mb-4 this-test' src={Image4} alt="" />
                         <p>E-commerce Solution</p>
                     </div>
-                    <div className="bg-orange-200 shadow-xl p-10 rounded-lg">
+                    <div className=" shadow-xl p-10 rounded-lg">
                         <img className='mb-4 this-test' src={Image5} alt="" />
                         <p>Affiliate Marketing Solution</p>
                     </div>
-                    <div className="bg-orange-200 shadow-xl p-10 rounded-lg">
+                    <div className=" shadow-xl p-10 rounded-lg">
                         <img className='mb-4 this-test' src={Image6} alt="" />
                         <p>Ad Network Solution</p>
                     </div>
