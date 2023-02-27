@@ -8,12 +8,12 @@ const Banner = () => {
                 <div className='mr-0 md:mr-28'>
                     <p className='text-orange-600 mb-6'>Paving the way through disruptive technologies</p>
                     <h1 className='text-3xl mb-6'>Revolutionizing Your <br /> <span className='text-orange-600'>Business Growth</span></h1>
-                    <p className='mb-6 line-number'>Our cutting-edge technology is designed to empower companies to unlock their full potential and <br/> stay ahead of the curve. We are revolutionizing the tech-business ecosystem.</p>
+                    <p className='mb-6 line-number'>Our cutting-edge technology is designed to empower companies to unlock their full potential and <br /> stay ahead of the curve. We are revolutionizing the tech-business ecosystem.</p>
                     <button className='btn bg-orange-600 text-white font-bold border-none mr-2'>Service we provide</button>
                     <button className='btn bg-orange-600 text-white font-bold border-none'>Learn More</button>
                 </div>
                 <div>
-                    <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/135693"></iframe>
+                    <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/71619"></iframe>
                 </div>
             </div>
         </div>
