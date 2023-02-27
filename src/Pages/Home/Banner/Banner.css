@@ -1,0 +1,22 @@
+.test {
+    height: 400px;
+    width: 400px;
+}
+
+.line-number {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 600px) {
+    .test {
+        width: 100%;
+        height: auto;
+    }
+    .line-number{
+        -webkit-line-clamp: 5;
+    }
+}
