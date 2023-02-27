@@ -15,7 +15,7 @@ const About = () => {
                         <p><span className='text-2xl text-pink-600'>&#10003;</span> Digital Services</p>
                     </div>
                     <div>
-                        <iframe className='banner-animation bg-gradient-to-tr from-[#CEB9DB] to-[#E2D7EA]' src="https://embed.lottiefiles.com/animation/132349"></iframe>
+                        <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/88930"></iframe>
                     </div>
                 </div>
             </div>
