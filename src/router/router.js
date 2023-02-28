@@ -5,6 +5,7 @@ import ContactUs from "../Pages/Home/ContactUs/ContactUs";
 import Home from "../Pages/Home/Home/Home";
 import OurPartners from "../Pages/Home/OurPartners/OurPartners";
 import AllServices from "../Pages/Home/ServicesCateGory/AllServices";
+import Development from "../Pages/Home/ServicesCateGory/Development";
 
 
 export const router = createBrowserRouter([
@@ -31,7 +32,11 @@ export const router = createBrowserRouter([
             {
                 path: '/allServices',
                 element: <AllServices></AllServices>
+            },
+            {
+                path: '/development',
+                element: <Development></Development>
             }
         ]
-    }
+    },
 ])
