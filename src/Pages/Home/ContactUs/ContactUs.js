@@ -1,4 +1,5 @@
 import React from 'react';
+import EmailUs from '../Email/EmailUs';
 
 const ContactUs = () => {
     return (
@@ -30,6 +31,7 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
+            <EmailUs></EmailUs>
         </div>
     );
 };

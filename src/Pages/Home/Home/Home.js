@@ -16,7 +16,6 @@ const Home = () => {
             <CompletedServices></CompletedServices>
             <OurPartners></OurPartners>
             <ContactUs></ContactUs>
-            <EmailUs></EmailUs>
         </div>
     );
 };
