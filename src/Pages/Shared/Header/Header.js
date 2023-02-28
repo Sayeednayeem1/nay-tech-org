@@ -6,6 +6,7 @@ const Header = () => {
         <li> <Link to='/'>Home</Link></li>
         <li> <Link to='/about'>About</Link></li>
         <li> <Link to='/ourPartners'>Our Partners</Link></li>
+        <li> <Link to='/contactUs'>Contact Us</Link></li>
     </>
     return (
         <div className='mx-4 md:mx-36'>
