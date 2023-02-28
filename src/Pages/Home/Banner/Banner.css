@@ -23,6 +23,11 @@
     height: 110px;
 }
 
+.development-card-img{
+    width: 80px;
+    height: 80px;
+}
+
 @media only screen and (max-width: 600px) {
     .banner-animation {
         width: 100%;
@@ -37,6 +42,10 @@
         -webkit-line-clamp: 3;
     }
     .this-test{
+        width: 50%;
+        height: auto;
+    }
+    .development-card-img{
         width: 50%;
         height: auto;
     }

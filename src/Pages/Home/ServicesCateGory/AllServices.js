@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Development from './Development';
 
 const AllServices = () => {
     return (
@@ -8,13 +9,16 @@ const AllServices = () => {
                 <div className='flex flex-col md:flex-row items-center'>
                     <div className='mr-0 md:mr-28'>
                         <p className='mb-4 text-3xl font-bold opacity-90'>Services</p>
-                        <p className="mb-6">Nay Tech Org provides wide ranges of business solutions. Our services include mobile <br/> and web development, business management solutions, digital marketing solutions, affiliate <br/> marketing solutions, e-commerce solutions and advertising tech solutions. Through our highly <br/> experienced professionals, we strive to provide you with quality work while maintaining a high level <br/> of professionalism during the entire process</p>
+                        <p className="mb-6">Nay Tech Org provides wide ranges of business solutions. Our services include mobile <br /> and web development, business management solutions, digital marketing solutions, affiliate <br /> marketing solutions, e-commerce solutions and advertising tech solutions. Through our highly <br /> experienced professionals, we strive to provide you with quality work while maintaining a high level <br /> of professionalism during the entire process</p>
                         <a className='font-bold border-none flex items-center' href="/"><p className='mr-4'>Learn More</p>  <HiArrowNarrowRight /></a>
                     </div>
                     <div>
                         <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/88930"></iframe>
                     </div>
                 </div>
+            </div>
+            <div>
+                <Development></Development>
             </div>
         </div>
     );

@@ -17,7 +17,7 @@ const Header = () => {
             <a href="#" className="cursor-pointer"><p>Services</p> <AiOutlineArrowDown></AiOutlineArrowDown></a>
             <ul className={`absolute left-0 bottom-0 mt-2  w-60 bg-white rounded-md shadow-lg ${showSubMenu ? 'block' : 'hidden'}`}>
                 <li><Link to='/allServices'>All Services</Link></li>
-                <li><Link to='/'>Web/Mobile App Development</Link></li>
+                <li><Link to='/development'>Web/Mobile App Development</Link></li>
                 <li><Link to='/'>Business Management</Link></li>
                 <li><Link to='/'>Digital Marketing</Link></li>
                 <li><Link to='/'>E-commerce Solution</Link></li>
