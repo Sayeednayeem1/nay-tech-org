@@ -1,27 +1,18 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Header = () => {
 
-    const [showSubMenu, setShowSubMenu] = useState(false);
+    // const [showSubMenu, setShowSubMenu] = useState(false);
 
-    const toggleSubMenu = () => {
-        setShowSubMenu(!showSubMenu);
-    }
+    // const toggleSubMenu = () => {
+    //     setShowSubMenu(!showSubMenu);
+    // }
 
     const headerItems = <>
         <li> <Link to='/'>Home</Link></li>
         <li> <Link to='/about'>About</Link></li>
-        <li className="relative" onClick={toggleSubMenu}>
-            <a href="#" className="cursor-pointer"><p>Services</p> <AiOutlineArrowDown></AiOutlineArrowDown></a>
-            <ul className={`absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow-lg ${showSubMenu ? 'block' : 'hidden'}`}>
-                <li><Link to='/'>Submenu 1</Link></li>
-                <li><Link to='/'>Submenu 2</Link></li>
-                <li><Link to='/'>Submenu 3</Link></li>
-                <li><Link to='/'>Submenu 4</Link></li>
-            </ul>
-        </li>
+        <li> <Link to='/allServices'>Services</Link> </li>
         <li> <Link to='/ourPartners'>Our Partners</Link></li>
         <li> <Link to='/contactUs'>Contact Us</Link></li>
     </>
