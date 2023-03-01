@@ -3,7 +3,7 @@ I tried to design the website as my own way.
 I used React js, react router dom, tailwind css, Daisyui, Lottiefiles, particles js for making this website.
 And chatGPT was great help. Made me learn bunch of new things.
 
-Live-website Link: 
+Live-website Link: https://nay-tech-org.vercel.app/
 
 # Getting Started with Create React App
 
