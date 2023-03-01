@@ -38,7 +38,7 @@ const Header = () => {
                             {headerItems}
                         </ul>
                     </div>
-                    <div className="avatar">
+                    <div className="avatar hidden md:block">
                         <div className="w-24 rounded-full">
                             <img src={Img1} alt=''/>
                         </div>
@@ -50,7 +50,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Get started</a>
+                    <Link to='/contactDev' className="btn btn-outline btn-secondary">Contact Developer</Link>
                 </div>
             </div>
         </div>
