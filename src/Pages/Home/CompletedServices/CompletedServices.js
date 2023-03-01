@@ -1,18 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BsFillCalendarCheckFill, BsFillBriefcaseFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { TbBrandReactNative } from "react-icons/tb";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const CompletedServices = () => {
 
-    useEffect(() =>{
-        AOS.init({duration:2000})
-    }, []);
-
     return (
-        <div className='bg-blue-500' data-aos='zoom-out'>
+        <div className='bg-blue-500' >
             <div className='mx-4 md:mx-36 mt-12'>
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-4 p-10'>
                     <div className=''>

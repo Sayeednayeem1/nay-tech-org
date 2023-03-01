@@ -1,21 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Image1 from "../../../assets/images/Image1.svg";
 import Image2 from "../../../assets/images/Image2.svg";
 import Image3 from "../../../assets/images/Image3.svg";
 import Image4 from "../../../assets/images/Image4.svg";
 import Image5 from "../../../assets/images/Image5.svg";
 import Image6 from "../../../assets/images/Image6.svg";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const Services = () => {
 
-    useEffect(() =>{
-        AOS.init({duration:2000})
-    }, []);
-
     return (
-        <div className='mx-4 md:mx-36 mt-12' data-aos="fade-right">
+        <div className='mx-4 md:mx-36 mt-12'>
             <div className='flex flex-col md:flex-row'>
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mr-0 md:mr-20'>
                     <div className="shadow-xl p-10 rounded-lg bg-white">

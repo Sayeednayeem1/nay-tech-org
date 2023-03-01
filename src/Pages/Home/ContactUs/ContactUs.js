@@ -1,17 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import EmailUs from '../Email/EmailUs';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const ContactUs = () => {
 
-    useEffect(() => {
-        AOS.init({ duration: 2000 })
-    }, []);
-
     return (
         <div>
-            <div className=' py-10 mt-16' data-aos='fade-down'>
+            <div className=' py-10 mt-16'>
                 <div className='mx-4 md:mx-36'>
                     <div className='flex flex-col md:flex-row items-center'>
                         <div className='shadow-xl p-4 rounded-xl  mr-0 md:mr-28'>
