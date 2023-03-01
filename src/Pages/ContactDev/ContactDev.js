@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BiPhoneCall } from "react-icons/bi";
 import { HiMail } from "react-icons/hi";
 import { FaAddressBook, FaFacebookSquare } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { RxResume } from "react-icons/rx";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactDev = () => {
+
+    useEffect(() =>{
+        AOS.init({duration:2000})
+    }, [])
+
     return (
-        <div className='mx-4 md:mx-36 mt-12'>
+        <div className='mx-4 md:mx-36 mt-12' data-aos="zoom-in">
             <div className='flex flex-col md:flex-row justify-evenly items-center'>
                 <div className='shadow-xl p-10'>
                     <div className='flex items-center'>

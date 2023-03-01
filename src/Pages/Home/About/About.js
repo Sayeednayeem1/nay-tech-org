@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
+    useEffect(() =>{
+        AOS.init({duration:2000})
+    }, []);
+
     return (
-        <div className=' py-10 mt-16'>
+        <div className=' py-10 mt-16' data-aos="fade-left">
             <div className='mx-4 md:mx-36'>
                 <div className='flex flex-col md:flex-row items-center'>
                     <div className='mr-0 md:mr-28'>
@@ -15,7 +22,7 @@ const About = () => {
                         <p><span className='text-2xl text-pink-600'>&#10003;</span> Digital Services</p>
                     </div>
                     <div>
-                        <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/88930"></iframe>
+                        <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/88930" title='coding image'></iframe>
                     </div>
                 </div>
             </div>

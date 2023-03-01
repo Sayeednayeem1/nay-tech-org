@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Banner.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
+
+    useEffect(() =>{
+        AOS.init({duration:2000})
+    }, [])
+
     return (
-        <div className='mx-4 md:mx-36 mt-12'>
+        <div className='mx-4 md:mx-36 mt-12' data-aos="zoom-in">
             <div className='flex flex-col md:flex-row items-center'>
                 <div className='mr-0 md:mr-28'>
                     <p className='text-orange-600 mb-6'>Paving the way through disruptive technologies</p>

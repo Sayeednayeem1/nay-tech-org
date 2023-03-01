@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const EmailUs = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, []);
+
     return (
         <div>
-            <div className=' py-10 mt-16 bg-red-400'>
+            <div className=' py-10 mt-16 bg-red-400' data-aos='fade-left'>
                 <div className='mx-4 md:mx-36'>
                     <div className='flex flex-col md:flex-row items-center'>
                         <div className='mr-0 md:mr-28'>

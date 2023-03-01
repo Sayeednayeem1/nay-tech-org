@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Img1 from '../../../assets/images/Citizen-Sports.png';
 import Img2 from '../../../assets/images/easy-dhaka.png';
@@ -12,10 +12,17 @@ import Img9 from '../../../assets/images/Organic-Online.png';
 import Img10 from '../../../assets/images/ovrtesx0lzhzeheynlit.png';
 import Img11 from '../../../assets/images/paperboat.png';
 import Img12 from '../../../assets/images/PinkFlashBD1.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const OurPartners = () => {
+
+    useEffect(() =>{
+        AOS.init({duration:2000})
+    }, []);
+
     return (
-        <div className='mx-2 md:mx-36 mt-12'>
+        <div className='mx-2 md:mx-36 mt-12' data-aos='zoom-in'>
             <div className='flex mt-14 flex-col md:flex-row items-center'>
                 <div className='mr-0 md:mr-28'>
                     <h1 className='text-5xl mb-6'>Partners</h1>

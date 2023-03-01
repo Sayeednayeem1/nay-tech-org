@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image1 from '../../../assets/images/BusinessManagement/Image1.svg';
 import Image2 from '../../../assets/images/BusinessManagement/Image2.svg';
 import Image3 from '../../../assets/images/BusinessManagement/Image3.svg';
 import Image4 from '../../../assets/images/BusinessManagement/Image4.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const BusinessManagement = () => {
+
+    useEffect(() =>{
+        AOS.init({duration:2000})
+    }, []);
+
     return (
-        <div className='mx-4 md:mx-36 mt-12'>
+        <div className='mx-4 md:mx-36 mt-12' data-aos='zoom-out'>
             <div className='text-center mb-8'>
                 <p className='text-orange-600 mb-4'>Business Management</p>
                 <h1 className='font-bold text-2xl opacity-70'>Offering A Wide Range Of Professional Services</h1>

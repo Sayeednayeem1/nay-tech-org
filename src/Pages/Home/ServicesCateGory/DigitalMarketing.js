@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image1 from '../../../assets/images/DigitalMarketing/Image1.svg';
 import Image2 from '../../../assets/images/DigitalMarketing/Image2.svg';
 import Image3 from '../../../assets/images/DigitalMarketing/Image3.svg';
 import Image4 from '../../../assets/images/DigitalMarketing/Image4.svg';
 import Image5 from '../../../assets/images/DigitalMarketing/Image5.svg';
 import Image6 from '../../../assets/images/DigitalMarketing/Image6.svg';
-import Image7 from '../../../assets/images/DigitalMarketing/Image7.svg';
-
 const DigitalMarketing = () => {
+
+    useEffect(() =>{
+        AOS.init({duration:2000})
+    }, []);
+
     return (
-        <div className='mx-4 md:mx-36 mt-12'>
+        <div className='mx-4 md:mx-36 mt-12' data-aos='zoom-in'>
             <div className='text-center mb-8'>
                 <p className='text-orange-600 mb-4'>Digital Marketing</p>
                 <h1 className='font-bold text-2xl opacity-70'>Offering A Wide Range Of Professional Services</h1>

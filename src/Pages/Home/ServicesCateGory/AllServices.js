@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import BusinessManagement from './BusinessManagement';
 import Development from './Development';
 import DigitalMarketing from './DigitalMarketing';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AllServices = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, []);
+
     return (
         <div className=' py-10 mt-16'>
-            <div className='mx-4 md:mx-36'>
+            <div className='mx-4 md:mx-36' data-aos='zoom-in'>
                 <div className='flex flex-col md:flex-row items-center'>
                     <div className='mr-0 md:mr-28'>
                         <p className='mb-4 text-3xl font-bold opacity-90'>Services</p>
