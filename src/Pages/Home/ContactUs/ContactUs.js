@@ -31,7 +31,9 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-            <EmailUs></EmailUs>
+            <div>
+                <EmailUs></EmailUs>
+            </div>
         </div>
     );
 };

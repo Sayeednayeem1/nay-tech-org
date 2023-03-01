@@ -3,7 +3,6 @@ import About from '../About/About';
 import Banner from '../Banner/Banner';
 import CompletedServices from '../CompletedServices/CompletedServices';
 import ContactUs from '../ContactUs/ContactUs';
-import EmailUs from '../Email/EmailUs';
 import OurPartners from '../OurPartners/OurPartners';
 import Services from '../Services/Services';
 
