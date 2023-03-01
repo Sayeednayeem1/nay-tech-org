@@ -92,7 +92,7 @@ const Development = () => {
                         </div>
                     </div>
                     <div>
-                        <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/98636"></iframe>
+                        <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/90189"></iframe>
                     </div>
                 </div>
             </div>

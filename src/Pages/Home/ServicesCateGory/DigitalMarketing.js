@@ -84,7 +84,7 @@ const DigitalMarketing = () => {
                         </div>
                     </div>
                     <div>
-                        <iframe className='banner-animation' src="https://embed.lottiefiles.com/animation/109119"></iframe>
+                        <iframe className='banner-animation rounded-xl' src="https://embed.lottiefiles.com/animation/129906"></iframe>
                     </div>
                 </div>
             </div>
