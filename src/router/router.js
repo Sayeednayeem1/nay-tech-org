@@ -5,6 +5,7 @@ import ContactUs from "../Pages/Home/ContactUs/ContactUs";
 import Home from "../Pages/Home/Home/Home";
 import OurPartners from "../Pages/Home/OurPartners/OurPartners";
 import AllServices from "../Pages/Home/ServicesCateGory/AllServices";
+import BusinessManagement from "../Pages/Home/ServicesCateGory/BusinessManagement";
 import Development from "../Pages/Home/ServicesCateGory/Development";
 import DigitalMarketing from "../Pages/Home/ServicesCateGory/DigitalMarketing";
 
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
             {
                 path: '/digitalMarketing',
                 element: <DigitalMarketing></DigitalMarketing>
+            },
+            {
+                path:'/businessManagement',
+                element: <BusinessManagement></BusinessManagement>
             }
         ]
     },

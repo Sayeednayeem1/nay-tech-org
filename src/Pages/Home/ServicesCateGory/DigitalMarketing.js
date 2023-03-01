@@ -14,7 +14,7 @@ const DigitalMarketing = () => {
                 <p className='text-orange-600 mb-4'>Digital Marketing</p>
                 <h1 className='font-bold text-2xl opacity-70'>Offering A Wide Range Of Professional Services</h1>
             </div>
-            <div className='mx-4 md:mx-36'>
+            <div className='mx-4 md:mx-0'>
                 <div className='flex flex-col md:flex-row items-center'>
                     <div className='mr-0 md:mr-28'>
                         <div className='grid grid-cols-1 gap-2'>
