@@ -1,3 +1,10 @@
+This is a Demo website for a fake organization called Nay Tech Org
+I tried to design the website as my own way.
+I used React js, react router dom, tailwind css, Daisyui, Lottiefiles, particles js for making this website.
+And chatGPT was great help. Made me learn bunch of new things.
+
+Live-website Link: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
