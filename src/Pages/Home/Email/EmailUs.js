@@ -17,8 +17,7 @@ const EmailUs = () => {
                                 </div>
                                 <div className="divider text-white">OR</div>
                                 <div className="grid h-20 card">
-                                    <h4 className='text-2xl font-bold text-white'>Email Us</h4>
-                                    <a className=' text-white font-bold border-none flex items-center' href="mailto:sayeedn850@gmail.com"><p className='mr-4'>Email</p>  <HiArrowNarrowRight /></a>
+                                    <a className=' text-white font-bold border-none flex items-center shadow-2xl w-28 h-10' href="mailto:sayeedn850@gmail.com"><p className='mr-4'>Email Us</p>  <HiArrowNarrowRight /></a>
                                 </div>
                             </div>
                         </div>
