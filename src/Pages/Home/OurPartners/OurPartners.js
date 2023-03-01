@@ -30,39 +30,39 @@ const OurPartners = () => {
                 <p className='text-center text-orange-600'>OUR PARTNERS</p>
                 <h1 className='text-center text-2xl font-bold mt-2'>Some of our great partners</h1>
                 <div className='grid grid-cols-2 md:grid-cols-6 gap-2 mt-14'>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img1} alt="" />
-                    </div><div className='bg-white p-2 rounded-lg'>
+                    </div><div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img2} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img3} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img4} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img5} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img6} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img7} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img8} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img9} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img10} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img11} alt="" />
                     </div>
-                    <div className='bg-white p-2 rounded-lg'>
+                    <div className='bg-white p-2 rounded-lg shadow-xl'>
                         <img src={Img12} alt="" />
                     </div>
                 </div>
