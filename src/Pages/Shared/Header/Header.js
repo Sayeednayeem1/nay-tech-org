@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineArrowDown } from "react-icons/ai";
+import Img1 from '../../../assets/images/paperboat.png';
 
 const Header = () => {
 
@@ -37,7 +38,11 @@ const Header = () => {
                             {headerItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <div className="avatar">
+                        <div className="w-24 rounded-full">
+                            <img src={Img1} alt=''/>
+                        </div>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
