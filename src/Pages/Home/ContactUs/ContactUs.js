@@ -14,13 +14,13 @@ const ContactUs = () => {
                             </div>
                             <div>
                                 <p className='text-black opacity-50'>Please Enter Your Name</p>
-                                <input type="text" placeholder="Your Name" className="input w-full md:w-[800px] mb-2" />
+                                <input type="text" placeholder="Your Name" className="input w-full border-black opacity-50 md:w-[800px] mb-2" />
                                 <p className='text-black opacity-50'>PLease Enter Your Phone Number</p>
-                                <input type="text" placeholder="Your Phone Number" className="input w-full mb-2" />
+                                <input type="text" placeholder="Your Phone Number" className="input w-full border-black opacity-50 mb-2" />
                                 <p className='text-black opacity-50 mb-2' >PLease Enter Your Email Address</p>
-                                <input type="text" placeholder="Your Email Address" className="input w-full mb-4" />
+                                <input type="text" placeholder="Your Email Address" className="input w-full border-black opacity-50 mb-4" />
                                 <div>
-                                    <textarea className="textarea w-full" placeholder="Description"></textarea>
+                                    <textarea className="textarea w-full border-black opacity-50" placeholder="Description"></textarea>
                                 </div>
                                 <button className='btn bg-red-400 border-none mt-4'>Send Message</button>
                             </div>
