@@ -20,7 +20,7 @@ const BusinessManagement = () => {
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image1} alt="" />
                                     <p className='text-center'>ERP Software</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>ERP systems support all aspects of financial management, human resources, supply chain management, and manufacturing with your core accounting function.</p>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@ const BusinessManagement = () => {
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image2} alt="" />
                                     <p className='text-center'>ERP Software</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>ERP systems support all aspects of financial management, human resources, supply chain management, and manufacturing with your core accounting function.</p>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ const BusinessManagement = () => {
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image3} alt="" />
                                     <p className='text-center'>ERP Software</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>ERP systems support all aspects of financial management, human resources, supply chain management, and manufacturing with your core accounting function.</p>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ const BusinessManagement = () => {
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image4} alt="" />
                                     <p className='text-center'>ERP Software</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>ERP systems support all aspects of financial management, human resources, supply chain management, and manufacturing with your core accounting function.</p>
                                 </div>
                             </div>

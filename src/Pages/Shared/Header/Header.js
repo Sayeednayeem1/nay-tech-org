@@ -20,7 +20,6 @@ const Header = () => {
                 <li><Link to='/development'>Web/Mobile App Development</Link></li>
                 <li><Link to='/businessManagement'>Business Management</Link></li>
                 <li><Link to='/digitalMarketing'>Digital Marketing</Link></li>
-                <li><Link to='/'>E-commerce Solution</Link></li>
             </ul>
         </li>
         <li> <Link to='/ourPartners'>Our Partners</Link></li>

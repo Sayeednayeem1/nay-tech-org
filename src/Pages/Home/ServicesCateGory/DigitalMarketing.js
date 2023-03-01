@@ -19,65 +19,65 @@ const DigitalMarketing = () => {
                     <div className='mr-0 md:mr-28'>
                         <div className='grid grid-cols-1 gap-2'>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image1} alt="" />
-                                    <p className='text-center'>Email Marketing</p>
+                                    <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image2} alt="" />
                                     <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image3} alt="" />
-                                    <p className='text-center'>Digital marketing</p>
+                                    <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image4} alt="" />
-                                    <p className='text-center'>Digital marketing</p>
+                                    <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image5} alt="" />
-                                    <p className='text-center'>Digital marketing</p>
+                                    <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
                                     <img className='digital-mark-image container mx-auto mb-2' src={Image6} alt="" />
-                                    <p className='text-center'>Digital marketing</p>
+                                    <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row items-center'>
-                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl'>
-                                    <img className='digital-mark-image container mx-auto mb-2' src={Image7} alt="" />
-                                    <p className='text-center'>Digital marketing</p>
+                                <div className='shadow-xl p-4 mr-0 md:mr-2 bg-white mb-2 md:mb-0 rounded-xl h-60 md:h-36 w-80'>
+                                    <img className='digital-mark-image container mx-auto mb-2' src={Image6} alt="" />
+                                    <p className='text-center'>Digital Marketing</p>
                                 </div>
-                                <div className='shadow-xl px-6 py-8 bg-white rounded-xl'>
+                                <div className='shadow-xl px-6 py-12 bg-white rounded-xl'>
                                     <p className=''>Generating an impressive ROI, email is a powerhouse channel that can drive <br /> incredible incremental revenue with a comprehensive strategy and solid execution.</p>
                                 </div>
                             </div>
