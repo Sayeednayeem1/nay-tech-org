@@ -19,7 +19,7 @@ const Header = () => {
                 <li><Link to='/allServices'>All Services</Link></li>
                 <li><Link to='/development'>Web/Mobile App Development</Link></li>
                 <li><Link to='/'>Business Management</Link></li>
-                <li><Link to='/'>Digital Marketing</Link></li>
+                <li><Link to='/digitalMarketing'>Digital Marketing</Link></li>
                 <li><Link to='/'>E-commerce Solution</Link></li>
             </ul>
         </li>

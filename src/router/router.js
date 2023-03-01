@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home/Home";
 import OurPartners from "../Pages/Home/OurPartners/OurPartners";
 import AllServices from "../Pages/Home/ServicesCateGory/AllServices";
 import Development from "../Pages/Home/ServicesCateGory/Development";
+import DigitalMarketing from "../Pages/Home/ServicesCateGory/DigitalMarketing";
 
 
 export const router = createBrowserRouter([
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
             {
                 path: '/development',
                 element: <Development></Development>
+            },
+            {
+                path: '/digitalMarketing',
+                element: <DigitalMarketing></DigitalMarketing>
             }
         ]
     },

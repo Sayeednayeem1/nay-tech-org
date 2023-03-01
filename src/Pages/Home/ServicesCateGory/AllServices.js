@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Development from './Development';
+import DigitalMarketing from './DigitalMarketing';
 
 const AllServices = () => {
     return (
@@ -19,6 +20,7 @@ const AllServices = () => {
             </div>
             <div>
                 <Development></Development>
+                <DigitalMarketing></DigitalMarketing>
             </div>
         </div>
     );
