@@ -60,7 +60,7 @@ const Particle = () => {
                             color: "#000000",
                             distance: 150,
                             enable: true,
-                            opacity: 0.5,
+                            opacity: 0.05,
                             width: 1,
                         },
                         collisions: {
@@ -79,12 +79,12 @@ const Particle = () => {
                         number: {
                             density: {
                                 enable: true,
-                                area: 1200,
+                                area: 1500,
                             },
-                            value: 80,
+                            value: 20,
                         },
                         opacity: {
-                            value: 0.5,
+                            value: 0.1,
                         },
                         shape: {
                             type: "circle",
